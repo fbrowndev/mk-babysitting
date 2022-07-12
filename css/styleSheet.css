@@ -1,0 +1,223 @@
+/*Setting up the general settings*/
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Hubballi&family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0 auto;
+    width: 1250px;
+}
+
+
+.main-logo{
+    width: 40px;
+    height: 40px;
+}
+
+* {
+    font-family: 'Hubballi', cursive, 'Roboto', sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #123C69;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.logo-text {
+    font-family: 'BhuTuka Expanded One', cursive, 'Hubballi', cursive, 'Roboto', sans-serif,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/*Setting up the main nav*/
+
+.main-header{
+    background-color: #EDC7B7;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.left-nav{
+    width: 275px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.right-nav-container{
+    width: 400px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+
+.right-nav-container li:hover{
+    text-decoration: underline;
+}
+
+/*Setting up main section logo with name*/
+
+.main-name-container {
+    background-color: #BAB2B5;
+    border: 1px solid #EEE2DC;
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 15px 20px rgba(0, 0, 0, .1);
+}
+
+.main-name {
+    margin: 0;
+    padding: 0;
+    color: #AC3B61;
+    font-size: 100px;
+
+}
+
+/*Setting up mid text*/
+
+.mid-text-container{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.mid-text{
+    font-size: 35px;
+    color: #707070;
+    width: 600px;
+    margin: auto;
+}
+
+
+/*Setting up the img sets*/
+
+.pic-set-container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.pic-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic-set{
+    height: 400px;
+    width: 250px;
+}
+
+.pic-set-title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.pic-text{
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.set-img {
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #EEE2DC;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+}
+
+/*Setting up the About me section*/
+
+.self-pic{
+    width: 300px;
+    height: 400px;
+}
+
+.about-me-container {
+    border: 5px solid #123C69;
+    background-color: #123C69;
+    height: 600px;
+}
+
+.about-me-text{
+    color: #BAB2B5;
+    width: 500px;
+    text-align: right;
+}
+
+.about-me-title h2, .rates-title h2{
+    text-align: center;
+    color: #AC3B61;
+    background-color: #EEE2DC;
+    font-size: 80px;
+    margin-top: 15px;
+}
+
+.about-me-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Setting up the rates section*/
+
+.rates-title h2{
+    margin-top: 55px;
+    margin-bottom: 35px;
+}
+
+.rate-box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.rate-box{
+    border: 3px solid #123C69;
+    background-color: #BAB2B5;
+    width: 350px;
+    height: 150px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-pic{
+    width: 35px;
+    height: 35px;
+}
+
+.box-title{
+    color: #707070;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.box-text{
+    color: #AC3B61;
+}
+
+/*Setting up the final footer*/
+
+.footer{
+    background-color: #EDC7B7;
+    height: 50px;
+    margin-top: 75px;
+}
