@@ -221,3 +221,33 @@ a{
     height: 50px;
     margin-top: 75px;
 }
+
+
+/*Setting up mobile responsiveness*/
+
+@media(max-width: 700px){
+    
+    /*Setting up the main body*/
+    body{
+        width: 500px;
+    }
+
+    /*Setting up the about me section*/
+    .about-me-text{
+        text-align: center;
+    }
+
+    .self-pic{
+        width: 150px;
+        height: 190px;
+    }
+
+    .about-me-info{
+        flex-direction: column;
+    }
+
+    /*Changing the sizes of the rating boxes*/
+    .rate-box{
+        width: 200px;
+    }
+}
